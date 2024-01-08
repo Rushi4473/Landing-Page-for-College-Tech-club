@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#head_section {
+    height: 200px;
+    border-bottom: 2px solid;
+    display: flex;
+    justify-content: space-evenly;
+    height: 152.8px;
+    width: 1519px;
+}
+
+#college_logo {
+    height: 150px;
+    width: 146px;
+
+}
+
+.college_name {
+    margin: 25px;
+    padding: 25px 0;
+    word-spacing: 1px;
+
+}
+
+.college_name h1 {
+    font-size: 25px;
+    font-weight: 700;
+    font-style: normal;
+    font-family: 'Roboto';
+}
+
+.college_name p {
+    margin-top: 10px;
+    line-height: 1.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.language {
+    width: 143px;
+    height: 22.5px;
+    color: #32373c;
+    margin-top: 56px;
+}
+
+.but {
+    padding-top: 20px;
+}
+
+.but button {
+    border-radius: 10em;
+    background-color: #800;
+    color: #fff;
+    width: 100px;
+    height: 25px;
+
+
+}
+
+.about {
+    display: flex;
+    height: 52.9px;
+    width: 1519.2px;
+    background-color: rgb(98, 96, 94);
+    font: 1em/1.65em Public Sans, Arial, sans-serif;
+    border-left: 2px solid rgb(139, 136, 136);
+    position: relative;
+    justify-content: center;
+
+}
+
+.about:hover {
+    background-color: brown;
+}
+
+.box {
+    justify-content: center;
+    align-items: center;
+}
+
+.home {
+    align-items: center;
+    border: none;
+}
+
+.home1 {
+    border-left: 2px solid rgb(139, 136, 136);  
+}
+
+.club_heading{
+    text-transform: uppercase;
+    font-size: 1.8em;
+    letter-spacing: .15em;
+    color: #3e4152;
+    font-weight: 700;
+    max-height: 5em;
+    margin: 20px 0 20px 50px;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 25px 38px;
+    justify-content: space-between;
+    box-shadow: 16px 11px 15px -15px #3e4152;
+
+}
+
+.footer_container{
+    padding: 30px 0 40px 0;
+    background: #187bbe;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer_rows{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_rows a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 15px;
+    padding-bottom: 5px;
+}
